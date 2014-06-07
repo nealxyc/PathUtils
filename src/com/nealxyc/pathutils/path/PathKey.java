@@ -6,7 +6,7 @@ package com.nealxyc.pathutils.path;
  * @author Neal Xiong
  *
  */
-public interface PathKey {
+public interface PathKey extends Comparable<PathKey> {
 	/**
 	 * Returns the formalized string representation.
 	 * @return

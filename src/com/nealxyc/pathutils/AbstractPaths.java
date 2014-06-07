@@ -33,7 +33,7 @@ public abstract class AbstractPaths {
 		try {
 			PathNode leaf = parser.parse(path) ;
 			//TODO wire in listeners.
-			adapter.setValue(root, leaf, value);
+//			adapter.setValue(root, leaf, value);
 		} catch (UnrecognizedPathException e) {
 			//TODO 
 			e.printStackTrace();

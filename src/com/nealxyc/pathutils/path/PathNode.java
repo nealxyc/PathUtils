@@ -6,6 +6,7 @@ public interface PathNode {
 
 	public PathNode getParent();
 	public Map<PathKey, PathNode> getChildren();
+	public PathNode getChildren(PathKey key);
 	public PathKey getKey();
 	/**
 	 * Returns the formalized string representation of this PathNode.
